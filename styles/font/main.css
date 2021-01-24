@@ -1,0 +1,38 @@
+.logo {
+  width: 100%;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: .2rem solid black;
+}
+
+.logo h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  letter-spacing: -.12rem;
+}
+
+.logo h1 span:nth-last-child(3) {
+  color: #7e7e7e;
+}
+
+.logo h1 span:nth-last-child(2) {
+  color: #898989;
+}
+
+.logo h1 span:nth-last-child(1) {
+  color: #686868;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+/*# sourceMappingURL=main.css.map */
