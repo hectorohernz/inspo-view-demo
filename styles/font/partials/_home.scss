@@ -25,3 +25,52 @@
         color: rgb(30, 30, 30);
     }
 }
+
+
+
+.home--login{
+    margin:2rem 0rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-size:35px;
+        font-weight:300;
+    }
+
+    form{
+        margin:1.5rem 0rem ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        input[type=text]{
+            font-size: 18px;
+            width: 75%;
+            margin: 1rem 0rem;
+            padding: .3rem 3px;
+            border: 2px solid black;
+            border-radius:6px;
+        }
+        
+        input[type=submit]{
+            background: black;
+            color: white;
+            font-size: 18px;
+            padding: 2px 7px;
+            border-radius: 5px;
+            width: 79%;
+            margin-top: 5px;
+        }
+        input[type=submit]:disabled{
+            background: rgb(128, 128, 128);
+            color: rgb(43, 43, 43);
+            font-size: 18px;
+            padding: 2px 7px;
+            border-radius: 5px;
+        }
+    }
+}
+

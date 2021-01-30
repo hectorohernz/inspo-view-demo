@@ -1,0 +1,10 @@
+.form-error{
+    position: fixed;
+    top:15%;
+    left:50px;
+    width: calc(100% - 150px);
+    background-color: rgba(240, 0, 0, 0.795);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
