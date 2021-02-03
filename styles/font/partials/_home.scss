@@ -29,29 +29,38 @@
 
 
 .home--login{
-    margin:2rem 0rem ;
+    margin:0rem 2rem;
+    padding:0rem 2rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     h2{
-        font-size:35px;
+    
+        font-size:40px;
         font-weight:300;
     }
 
     form{
+        color: rgb(35, 35, 35);
         margin:1.5rem 0rem ;
         width: 100%;
+        font-weight: bold;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-image: linear-gradient( 135deg, rgba(146, 255, 191, 0.53) 10%, #00276187 100%);
+        padding: 2rem;
+        border-radius: 1.2rem;
+
         
         input[type=text]{
-            font-size: 18px;
-            width: 75%;
-            margin: 1rem 0rem;
-            padding: .3rem 3px;
-            border: 2px solid black;
+            font-size: 15px;
+            width: 90%;
+            margin: 1.2rem 0rem;
+            padding: .4rem .4rem;
+            border: 2px white solid;
             border-radius:6px;
         }
         
@@ -61,8 +70,9 @@
             font-size: 18px;
             padding: 2px 7px;
             border-radius: 5px;
-            width: 79%;
-            margin-top: 5px;
+            width: 90%;
+            margin-top: 1rem;
+            border: 1px solid black;
         }
         input[type=submit]:disabled{
             background: rgb(128, 128, 128);
@@ -70,6 +80,7 @@
             font-size: 18px;
             padding: 2px 7px;
             border-radius: 5px;
+            border: 1px solid   rgb(128, 128, 128);
         }
     }
 }

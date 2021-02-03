@@ -65,9 +65,9 @@ export default function login({ data }) {
         <h2>Log In</h2>
         <form onSubmit={handleSubmit}>
           <label>Username:</label>
-          <input type="text" {...bindUsername} />
+          <input type="text" {...bindUsername} placeholder="Username.."/>
           <label>Password:</label>
-          <input type="text" {...bindPassword} />
+          <input type="text" {...bindPassword} placeholder="Password.."/>
           <input
             type="submit"
             value="Log In"

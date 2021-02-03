@@ -37,7 +37,9 @@
 }
 
 .home--login {
-  margin: 2rem 0rem;
+  margin: 0rem 2rem;
+  padding: 0rem 2rem;
+  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,13 +53,15 @@
 }
 
 .home--login h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 300;
 }
 
 .home--login form {
+  color: #232323;
   margin: 1.5rem 0rem;
   width: 100%;
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,14 +72,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: linear-gradient(135deg, rgba(146, 255, 191, 0.53) 10%, #00276187 100%);
+  padding: 2rem;
+  border-radius: 1.2rem;
 }
 
 .home--login form input[type=text] {
-  font-size: 18px;
-  width: 75%;
-  margin: 1rem 0rem;
-  padding: .3rem 3px;
-  border: 2px solid black;
+  font-size: 15px;
+  width: 90%;
+  margin: 1.2rem 0rem;
+  padding: .4rem .4rem;
+  border: 2px white solid;
   border-radius: 6px;
 }
 
@@ -85,8 +92,9 @@
   font-size: 18px;
   padding: 2px 7px;
   border-radius: 5px;
-  width: 79%;
-  margin-top: 5px;
+  width: 90%;
+  margin-top: 1rem;
+  border: 1px solid black;
 }
 
 .home--login form input[type=submit]:disabled {
@@ -95,6 +103,7 @@
   font-size: 18px;
   padding: 2px 7px;
   border-radius: 5px;
+  border: 1px solid gray;
 }
 
 .form-error {
