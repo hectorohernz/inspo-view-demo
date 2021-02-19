@@ -47,7 +47,6 @@ export default function login({ data }) {
       return setUser(userData);
     } catch (err) {
       console.log("error Inside fetch funk ::", err);
-      return { data: err };
     }
   };
 

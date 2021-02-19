@@ -5,9 +5,15 @@ import Logo from "../components/utils/Logo";
 export default function Index() {
   return (
     <>
-      <Logo/>
-      <LoginForm/>
-      <button>Create An Account</button>
+      <Logo />
+      <div className="flex-column">
+        <LoginForm />
+        <div className="d-flex justify-content-center">
+          <Link href="/create-account/create" className="btn btn-primary btn-lg active">
+            Create An Account
+          </Link>
+        </div>
+      </div>
     </>
   );
 }
