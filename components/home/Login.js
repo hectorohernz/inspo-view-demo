@@ -43,6 +43,11 @@ export default function login({ data }) {
         console.log(userData, ":: unsuccessful");
         return setErrorRequest([true, userData.message]);
       }
+      if (typeof window !== "undefined") {
+
+        localStorage.setItem("_id", userData.token)
+        
+      }
       console.log(userData, ":: successful");
       return setUser(userData);
     } catch (err) {

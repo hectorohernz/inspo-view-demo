@@ -116,4 +116,13 @@
   padding: 25px;
   text-align: center;
 }
+
+.welcome-msg {
+  padding: 2rem 2rem;
+}
+
+.welcome-msg h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
 /*# sourceMappingURL=main.css.map */
